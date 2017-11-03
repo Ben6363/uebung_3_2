@@ -39,9 +39,6 @@ public class Kundenrabatt {
 					if (bestellwert >= 100) {
 						mengenrabatt = mengenrabatt1;
 					}
-					else {
-						mengenrabatt = 0;
-					}
 				}
 			}
 		}
@@ -87,12 +84,12 @@ public class Kundenrabatt {
 			System.out.println("Premiumkunde : nein");
 		}
 		
-		System.out.println("Bestellwert ohne Rabatt: " + bestellwert + "€");
+		System.out.println("Bestellwert ohne Rabatt: " + bestellwert + "ï¿½");
 		System.out.println("Mengenrabatt: " + mengenrabatt * 100 + "%");
 		System.out.println("Treuerabatt: " + treuerabatt * 100 + "%");
 		System.out.println("Bonusrabatt: " + bonusrabatt * 100 + "%");
 		System.out.println("Gesamtrabatt: " + rabatt*100 + "%");
-		System.out.println("Bestellwert mit Rabatt: " + bestellwert * (1-rabatt) + "€");
+		System.out.println("Bestellwert mit Rabatt: " + bestellwert * (1-rabatt) + "ï¿½");
 		
 		
 		
